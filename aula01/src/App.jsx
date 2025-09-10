@@ -1,17 +1,17 @@
 import React from 'react'
-import Adicao from './components/Adicao'
-import Divisao from './components/Divisao'
-import Subtracao from './components/Subtracao'
-import Multiplicacao from './components/Multiplicacao'
-import PrecisoEstudar from './components/PrecisoEstudar'
+import Addition from './components/Addition'
+import Division from './components/Division'
+import Subtraction from './components/Subtraction'
+import Multiplication from './components/Multiplication'
+
 
 const App = () => {
   return (
     <div>
-      <Adicao num1={2} num2={3}/>
-      <Divisao num1={16} num2={8}/>
-      <Subtracao num1={3} num2={1}/>
-      <Multiplicacao num1={3} num2={2}/>
+      <Addition num1={2} num2={3}/>
+      <Division num1={16} num2={8}/>
+      <Subtraction num1={3} num2={1}/>
+      <Multiplication num1={3} num2={2}/>
       <PrecisoEstudar nomeDaTecnologia="React"/>
     </div>
   )

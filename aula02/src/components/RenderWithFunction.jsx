@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RenderizandoComFuncoes = () => {
+const RenderWithFunction = () => {
 
     function oQueRenderizar(estado) {
         if (estado === "PB") {
@@ -16,4 +16,4 @@ const RenderizandoComFuncoes = () => {
 
 }
 
-export default RenderizandoComFuncoes
+export default RenderWithFunction

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Divisao = (props) => {
+const Division = (props) => {
   if (props.num2 > props.num1) {
     if (props.num1 === 0) {
       return <div>Erro: Não é possível dividir por zero.</div>;
@@ -18,4 +18,4 @@ const Divisao = (props) => {
   );
 }
 
-export default Divisao;
+export default Division;

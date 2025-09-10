@@ -1,7 +1,7 @@
 import React from 'react'
 import Galo from '../assets/images.png'
 
-const TrabalhandoComImagens = () => {
+const WorkWithImage = () => {
   return (
     <div>
         <img src='download.jfif' alt="" />
@@ -10,4 +10,4 @@ const TrabalhandoComImagens = () => {
   )
 }
 
-export default TrabalhandoComImagens
+export default WorkWithImage
