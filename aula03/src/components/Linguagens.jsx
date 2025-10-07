@@ -1,4 +1,4 @@
-const Linguagens = ({nome, dificuldade}) => {
+export default function Linguagens({nome, dificuldade}) {
  return (
  <div>
     <p>Linguagem: {nome} </p>
@@ -7,4 +7,3 @@ const Linguagens = ({nome, dificuldade}) => {
  )
 }
 
-export default Linguagens;

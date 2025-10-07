@@ -1,0 +1,10 @@
+{
+    "alunos":[
+        {
+            "id": 1,
+            "name": "gabriel",
+            "email": "gabriel@gabriel.com"
+        }
+
+    ]
+}

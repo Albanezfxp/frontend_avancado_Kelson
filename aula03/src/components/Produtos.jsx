@@ -1,5 +1,5 @@
-const produtos = (nome, preco, categoria, quantidade) => {
-return (
+export default function Produtos({ nome, preco, categoria, quantidade }) {
+  return (
     <div>
         <p>Nome: {nome}</p>
         <p>Preco: {preco}</p>
@@ -8,7 +8,5 @@ return (
         <p>Status: {quantidade > 0 ? "DISPONIVEL" : "ESGOTADO"}</p>
         <p>---</p>
     </div>
-)
-}   
-
-export default produtos;
+  )
+}

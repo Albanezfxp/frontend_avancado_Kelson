@@ -1,4 +1,4 @@
-const aluno = ({nome, email, curso, media}) => {
+export default function Aluno({nome, email, curso, media})  {
     return <>
     <div>
         <p>Nome: {nome}</p>
@@ -9,5 +9,3 @@ const aluno = ({nome, email, curso, media}) => {
     </div>
     </>
 }
-
-export default aluno;

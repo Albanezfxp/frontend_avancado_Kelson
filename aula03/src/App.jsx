@@ -1,6 +1,7 @@
-import React from 'react'
-import WorkWithImage from './components/WorkWithImage'
-import RenderWithFunction from './components/RenderWithFunction'
+import './App.css'
+import Aluno from './components/Aluno'
+import Linguagens from './components/Linguagens'
+import Produtos from './components/Produtos'
 
 
 const App = () => {
@@ -77,7 +78,7 @@ const App = () => {
 
         ].map((produtos) =>
 
-          <Produto
+          <Produtos
 
             nome={produtos.nome}
 
