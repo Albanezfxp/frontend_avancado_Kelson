@@ -1,41 +1,74 @@
-Projeto UNIESP — Mini Site Institucional (React.js)
-Este projeto é um site institucional desenvolvido em React.js, com páginas internas, navegação via React Router e componentes reutilizáveis como Navbar e Footer.
+# UNIESP Mini Site Institucional — React.js
 
-O objetivo do projeto é servir como base para um site moderno, responsivo e bem estruturado, usando boas práticas de organização, rotas e componentes.
-🚀 Tecnologias Utilizadas
-React.js React Router DOM React-Bootstrap CSS Modules (para componentes como o Footer) CSS Global (App.css) — layout e responsividade do app JavaScript (ES6+)
+Bem-vindo ao mini site institucional da UNIESP, desenvolvido com **React.js**! Este projeto propõe um website moderno, responsivo e fácil de expandir, construído com base em componentes reutilizáveis e navegação eficiente.
 
-📂 Estrutura do Projeto
-<img width="194" height="640" alt="image" src="https://github.com/user-attachments/assets/e0f8aa9f-813a-4f73-8df0-19daf10bd8a6" />
+---
+
+## 🛠️ Tecnologias Incluídas
+
+- **React.js** para a interface com componentes funcionais
+- **React Router DOM** para controle de rotas internas
+- **React-Bootstrap** para UI ágil e responsiva
+- **CSS Modules** para estilização local de componentes como o Footer
+- **App.css** para layout global e responsividade
+- **JavaScript (ES6+)** para lógica moderna
+
+---
+
+## 📁 Estrutura do Repositório
+
+<img width="194" height="640" alt="image" src="https://github.com/user-attachments/assets/5338a0e2-1df6-45b6-bd14-a6237c58dacf" />
 
 
-🧭 Rotas da Aplicação
-O projeto utiliza React Router para controle de navegação.
+---
 
-/ Página Inicial /a-faculdade Informações sobre a instituição /dpo-lgpd Página sobre DPO & LGPD /noticias Seção de notícias da UNIESP
+## 🗺️ Rotas e Navegação
 
-⚙️ Como Rodar o Projeto
-1. Clone o repositório
-git clone https://github.com/SamuelloranD/demo-springboot-jpa.git
-2. Instale as dependências
-npm install
+O site possui as seguintes páginas:
 
-3. Execute o servidor de desenvolvimento
-npm start
+- `/` — **Home:** Apresentação e boas-vindas
+- `/a-faculdade` — Detalhes sobre a instituição
+- `/dpo-lgpd` — Informações de LGPD e DPO
+- `/noticias` — Últimas notícias e comunicados
 
-O site ficará disponível em:
+A navegação é feita pelo **CustomNavbar** (menu no topo), com links para todas as páginas principais.
 
-http://localhost:5173/
+---
 
-📌 Componentes Principais
-🔹 CustomNavbar
-Navegação principal do site Links para todas as páginas
+## 🚦 Como iniciar o projeto
 
-🔹 Footer
-Implementado com CSS Modules Responsivo e fixado ao final da página Informações institucionais + links úteis
+1. Faça o clone do repositório:
+   ```bash
+   git clone [https://github.com/Albanezfxp/frontend_avancado_Kelson.git]
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+4. Acesse o site em seu navegador preferido:
+   ```
+   http://localhost:5173/
+   ```
 
-🔹 Páginas:
-Inicial — página de boas-vindas Faculdade — informações da instituição DPO & LGPD — políticas e dados Notícias — atualizações e comunicados
+---
 
-📄 Licença
-Este projeto é de uso acadêmico e institucional. Utilize livremente para estudos e melhorias internas.
+## 🎯 Componentes em Destaque
+
+- **CustomNavbar:** Permite navegação intuitiva entre páginas e se adapta ao tamanho da tela.
+- **Footer:** Fixa-se ao rodapé da página, apresenta informações institucionais e links úteis.
+- **Páginas:** Cada tópico do site é construído em um componente separado, facilitando a manutenção e expansibilidade.
+
+---
+
+## 📝 Licença & Uso
+
+Este repositório é direcionado para fins acadêmicos e institucionais.  
+Sinta-se livre para utilizá-lo ou adaptá-lo para projetos de estudo ou melhorias internas.
+
+---
+
+> Desenvolvido para práticas educacionais na UNIESP.  
