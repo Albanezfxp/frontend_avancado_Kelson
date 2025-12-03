@@ -6,7 +6,8 @@ O objetivo do projeto é servir como base para um site moderno, responsivo e bem
 React.js React Router DOM React-Bootstrap CSS Modules (para componentes como o Footer) CSS Global (App.css) — layout e responsividade do app JavaScript (ES6+)
 
 📂 Estrutura do Projeto
-alt text
+<img width="194" height="640" alt="image" src="https://github.com/user-attachments/assets/e0f8aa9f-813a-4f73-8df0-19daf10bd8a6" />
+
 
 🧭 Rotas da Aplicação
 O projeto utiliza React Router para controle de navegação.
